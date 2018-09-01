@@ -1,0 +1,27 @@
+{
+  "name": "yinaoxiong/blog-statistics",
+  "type": "project",
+  "description": "A simple static blog stats script",
+  "keywords": [
+    "blog",
+    "statistics"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YinAoXiong",
+      "email": "yinaoxiong@gmail.com",
+      "homepage": "https://blog.yinaoxiong.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\":"src/"
+    }
+  },
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "vlucas/phpdotenv": "v2.5.0"
+  }
+}
